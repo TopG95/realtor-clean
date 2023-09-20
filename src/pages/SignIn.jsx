@@ -1,7 +1,7 @@
 ﻿import React, { useState } from 'react'
 import {AiFillEyeInvisible, AiFillEye} from "react-icons/ai"
 import { Link } from "react-router-dom"
-import OAth from '../components/OAth';
+import OAth from '../components/OAuth';
 
 export default function SignIn() {
   const [showPassword, setShowPassword] = useState(false)
